@@ -1,0 +1,5 @@
+remote_theme: "jekyll/minima@bf9ef98"
+title: XLibre for Manjaro Linux
+
+minima:
+  hide_site_feed_link: true
