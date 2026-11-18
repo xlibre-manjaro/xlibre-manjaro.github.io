@@ -1,5 +1,30 @@
-remote_theme: "jekyll/minima@bf9ef98"
+url: https://xlibre-manjaro.github.io
 title: XLibre for Manjaro Linux
+description: XLibre binary packages for Manjaro Linux
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: img/default-card.png
+      #logo: img/logo.svg
+      strip_title: true
+
+# Theme
+remote_theme: "jekyll/minima@bf9ef98"
+theme: minima
 
 minima:
   hide_site_feed_link: true
+
+# Plugins
+plugins:
+  - jekyll-default-layout
+  - jekyll-optional-front-matter
+  - jekyll-paginate
+  - jekyll-readme-index
+  - jekyll-relative-links
+  - jekyll-titles-from-headings
+
+titles_from_headings:
+  enabled: false
